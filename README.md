@@ -6,10 +6,12 @@ How to use ?
 1. Please edit the file 'config.json'.
 2. enter the value 'host' and 'port' with the following format:
 
+<pre>
 {
   "host" : "your-ip-server",
   "port" : port-server
 }
+</pre>
 
 3. Run 'npm test' to test it out.
 4. Run 'npm start' if you want to run in production mode. Previously please install the module 'pm2'. Visit https://www.npmjs.com/package/pm2

@@ -13,5 +13,26 @@ How to use ?
 }
 </pre>
 
-3. Run 'npm test' to test it out.
-4. Run 'npm start' if you want to run in production mode. Previously please install the module 'pm2'. Visit https://www.npmjs.com/package/pm2
+3. Perform package installation
+
+<pre>npm install</pre>
+
+4. For a test run:
+
+<pre>npm test</pre>
+
+5. If you want to run in production mode, please install the 'pm2' module.
+
+<pre>npm install pm2 -g</pre>
+
+6. Then run the following command:
+
+<pre>npm start</pre>
+
+------------------------------------ **** ------------------------------
+
+Thanks to :
+
+1. PM2 : https://www.npmjs.com/package/pm2
+2. http-proxy : https://www.npmjs.com/package/http-proxy
+3. load-balancers : https://www.npmjs.com/package/load-balancers

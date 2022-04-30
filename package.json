@@ -1,0 +1,16 @@
+{
+  "name": "load-balance",
+  "version": "1.0.0",
+  "description": "nodejs load balancing app to distribute http requests evenly across multiple servers.",
+  "main": "load-balance.js",
+  "scripts": {
+    "test": "node load-balance.js",
+    "start": "pm2 stop load-balance -f & sleep 3s && pm2 start load-balance.js --exp-backoff-restart-delay=1000 --max-memory-restart 512M -i max && pm2 save && pm2 startup && pm2 save"
+  },
+  "author": "Abdi Syahputra Harahap",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "load-balancers": "^1.3.52"
+  }
+}

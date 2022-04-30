@@ -1,6 +1,8 @@
 # load-balancer-nodejs
 nodejs load balancing app to distribute http requests evenly across multiple servers.
 
+![1M requests routed to 10 proxies](https://raw.githubusercontent.com/borzaresearch/node-load-balancers/master/docs/comparison.png)
+
 How to use ?
 
 1. Please edit the file 'config.json'.

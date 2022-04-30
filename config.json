@@ -1,34 +1,34 @@
 {
-	"port-listener":8080,
+	"port-listener":80,
 	"timeout-waitting-proxy":10000,
 	"proxy-balance":[
 		{
 			"host":"10.104.0.3",
-			"port":63892
+			"port":8081
 		},
 		{
 			"host":"10.104.0.4",
-			"port":63892
+			"port":8082
 		},
 		{
 			"host":"10.104.0.5",
-			"port":63892
+			"port":8083
 		},
 		{
 			"host":"10.104.0.7",
-			"port":63892
+			"port":8084
 		},
 		{
 			"host":"10.104.0.8",
-			"port":63892
+			"port":8085
 		},
 		{
 			"host":"10.104.0.9",
-			"port":63892
+			"port":8086
 		},
 		{
 			"host":"10.104.0.11",
-			"port":63892
+			"port":8087
 		}
 	]
 }
